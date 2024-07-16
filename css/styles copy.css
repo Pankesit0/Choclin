@@ -20,7 +20,7 @@ body {
 /* Navbar Styles */
 
 .navbar {
-  background-color: 	#ebeba5;
+  background-color: #964B00; /* Mocha Brown */
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -51,16 +51,23 @@ body {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #F0E4CC; /* Soft Beige */
   text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: #ccc;
+  color: #663300; /* Rich Brown */
 }
 
 .burger {
   display: none;
+}
+
+.burger div {
+  width: 30px;
+  height: 3px;
+  background-color: #f0e4cc; /* Soft Beige */
+  margin: 5px;
 }
 
 /* Hero Section Styles */
@@ -174,10 +181,8 @@ body {
   margin-top: 10px;
 }
 
-/* Footer Styles */
-
 footer {
-  background-color: #333;
+  background-color: #964B00; /* Mocha Brown */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -200,12 +205,12 @@ footer nav li {
 }
 
 footer nav a {
-  color: #fff;
+  color: #F0E4CC; /* Soft Beige */
   text-decoration: none;
 }
 
 footer nav a:hover {
-  color: #ccc;
+  color: #563009; /* Rich Brown */
 }
 
 /* Responsive Design */
@@ -238,7 +243,7 @@ footer nav a:hover {
   .burger div {
       width: 30px;
       height: 3px;
-      background-color: #fff;
+      background-color: #F0E4CC; 
       margin: 5px;
     }
   }
